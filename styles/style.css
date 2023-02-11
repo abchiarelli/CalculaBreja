@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    --color-04: #F28705;
+    --color-03: #F29F05;
+    --color-02: #F2B705;
+    --color-01: #F2CB05;
+    --color-00: #F2F2F2;
+
+    font-family: 'PT Sans', sans-serif;
+    color: #262626;
+
+    margin: 0;
+}
+
+#title-strong {
+    font-family: 'Germania One', cursive;
+
+    background-image: linear-gradient(to bottom, var(--color-00)0 43%, var(--color-03) 45%, var(--color-01));
+    background-size: 100%;
+    background-clip: text;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.1px #262626;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height:max-content;
+    
+    background-image: linear-gradient(to bottom, var(--color-00) 0 18%, var(--color-03) 20%, var(--color-01));
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+
+    padding: 30px;
+}
+
+main {
+    padding: 80px;
+}
+
+#valores {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    padding: 15px;
+
+    gap: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px;
+}
+
+.inputs p {
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+input {
+    margin-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0 10px 0;
+    background-color: var(--color-01);
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Germania One', cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-04);
+}
