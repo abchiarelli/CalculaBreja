@@ -5,7 +5,8 @@ Informe o valor, conforme a embalagem, e lhe retornará os demais valores para c
 
 Criado como forma de estudo e prática.
 
+🍺 Acesse: https://abchiarelli.github.io/CalculaBreja/
 
 Tecnologias utilizadas: HTML, CSS e JavaScript.
 
-Site criado por Artur Chiarelli.
+Cite criado por Artur Chiarelli.
